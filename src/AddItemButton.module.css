@@ -1,0 +1,29 @@
+/* detta är css-regler som endast används i AddItemButton */
+
+.light {
+    background-color: #ffffff3d;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 10px 12px;
+    text-align: left;
+    transition: background 85ms ease-in;
+    width: 100%;
+}
+
+.dark {background-color: #ffffff3d;
+    border-radius: 3px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 10px 12px;
+    text-align: left;
+    transition: background 85ms ease-in;
+    width: 100%;
+}
+.light:hover {
+    background-color: #ffffff52;
+}
