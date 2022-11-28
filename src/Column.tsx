@@ -1,4 +1,6 @@
-import { CardContainer, ColumnContainer, ColumnTitle } from "./styles";
+import { ColumnContainer, ColumnTitle } from "./styles";
+
+import { Card } from "./Card";
 
 type ColumnProps = {text: string};
 
@@ -10,9 +12,9 @@ const Column = ({text}: ColumnProps) => {
     return (
         <ColumnContainer>
             <ColumnTitle>{text}</ColumnTitle>
-            <CardContainer>Mecka TypeScript</CardContainer>
-            <CardContainer>Äta lunch</CardContainer>
-            <CardContainer>Fortsätta med React</CardContainer>
+            <Card text ="Mecka TypeScript ✔" />
+            <Card text="Äta lunch ✔" />
+            <Card text="Fortsätta med React" />
         </ColumnContainer>
     );
 }
