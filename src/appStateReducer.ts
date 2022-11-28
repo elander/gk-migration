@@ -1,5 +1,5 @@
+import { Action } from "./actions";
 import { nanoid } from "nanoid";
-
 export type Task = {
     id: string
     text: string
