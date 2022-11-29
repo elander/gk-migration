@@ -2,22 +2,30 @@ import { ColumnContainer, ColumnTitle } from "./styles";
 
 import { AddNewItem } from "./AddNewItem";
 import { Card } from "./Card";
+import { addTask } from "./actions";
+import { useAppState } from "./AppStateContext";
 
-type ColumnProps = {text: string};
+type ColumnProps = {text: string, id: string};
 
 // interface ColumnProps {
 //     text: string,
 // }
 
-const Column = ({text}: ColumnProps) => {
+const Column = ({text, id}: ColumnProps) => {
+    const { getTasksByListId, dispatch} = useAppState();
+    const tasks = getTasksByListId(id);
     return (
         <ColumnContainer>
+        <>
             <ColumnTitle>{text}</ColumnTitle>
-            <Card text ="Mecka TypeScript ✔" />
-            <Card text="Äta lunch ✔" />
-            <Card text="Fortsätta med React" />
+            {tasks.map(task => {
+                return (  <Card text={task.text} id= {task.id} key={task.id} />)
+            })}
             <AddNewItem toggleButtonText="+ Lägg till task"
-            onAdd={console.log} dark/>
+            onAdd={text => {
+                dispatch(addTask(text, id));
+            }} dark/>
+        </>
         </ColumnContainer>
     );
 }
