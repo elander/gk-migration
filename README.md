@@ -1,3 +1,5 @@
+[Type alias eller interface? Förklaring av Matt Pocock (som ni bör följa på Twitter, @mattpocockuk)](https://www.youtube.com/watch?v=zM9UPcIyyhQ)
+
 [Förklaring av JSX](https://reactjs.org/docs/introducing-jsx.html)
 
 [Dokumentation av HTML5 Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
