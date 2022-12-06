@@ -1,3 +1,39 @@
+[Förklaring av JSX](https://reactjs.org/docs/introducing-jsx.html)
+
+[Dokumentation av HTML5 Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+
+[Dokumentation till react-dnd](https://react-dnd.github.io/react-dnd/docs/api/use-drag)
+
+[Learn with Jason, jättebra video med Mark Erikson om Redux Toolkit](https://www.learnwithjason.dev/let-s-learn-modern-redux)
+
+[Dokumentation till ImmerJS, biblioteket som gör allt immutable så att vi slipper](https://immerjs.github.io/immer/)
+
+[Blogg om UseImmer och useImmerReducer](https://vhudyma-blog.eu/react-hooks-useimmer-and-useimmerreducer)
+
+[Reacts dokumentation om hooks](https://reactjs.org/docs/hooks-reference.html)
+
+[Dokumentation till Styled Components, ett bekvämt sätt att skapa komponenter med ett grundtutseende](https://styled-components.com/docs/api)
+
+[Bootstrap Styled, en variant på Styled Components specifikt för Boostrap!](https://bootstrap-styled.github.io/bootstrap-styled/)
+
+[Tailwind Styled Components, ungefär som Bootstrap Styled, men för Tailwind CSS som är en modern(are) variant av CSS-bibliotek](https://www.npmjs.com/package/tailwind-styled-components)
+
+[Själva Tailwind-biblioteket](https://tailwindcss.com)
+
+[React Bootstrap, ett annat bibliotek för att göra det enklare att använda Bootstrap i React](https://react-bootstrap.github.io)
+
+[pnpm, ett smart sätt att använda npm, där alla bibliotek man använder lagras på ett centralt ställe, och sedan länkas till via symlinks / genvägar i varje projekts "node_modules"](https://pnpm.io)
+
+[Förklaring av "manifest.json"](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+
+[Dokumentation till Reacts "reportWebVitals"](https://create-react-app.dev/docs/measuring-performance/)
+
+[Förklaring till react-app-env.d.ts:](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html#-reference-types-)
+
+[Dokumentation till "tsconfig.json"](https://www.typescriptlang.org/tsconfig)
+
+[JSON-server, perfekt för att skapa ett "fusk-API" att labba med när man utvecklar, så att man slipper prata direkt med det riktiga. OBS: värdelöst som "riktig" server!](https://github.com/typicode/json-server)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
